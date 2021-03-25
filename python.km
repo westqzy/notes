@@ -1034,19 +1034,21 @@
                                     "layout_right_offset": {
                                         "x": 39.99999841054273,
                                         "y": -43.333331611421556
-                                    }
+                                    },
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "ca5goqzflgg0",
                                             "created": 1616576907528,
-                                            "text": "画图plt.plot(x,y)",
+                                            "text": "画图",
                                             "layout_right_offset": {
-                                                "x": 1.6666666004391573,
-                                                "y": -41.66666501098223
+                                                "x": 12.916666432801094,
+                                                "y": -92.91666424729772
                                             },
-                                            "expandState": "expand"
+                                            "expandState": "expand",
+                                            "note": " "
                                         },
                                         "children": [
                                             {
@@ -1054,6 +1056,37 @@
                                                     "id": "ca5gpu8te740",
                                                     "created": 1616576992990,
                                                     "text": "显示plt.show()"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca6a5rx45ao0",
+                                                    "created": 1616660053943,
+                                                    "text": "曲线图plt.plot(x,y,label=\"\")",
+                                                    "note": "```\nplt.plot(x,y,label=\"月份关系\", linestyle=\"-.\", color = \"yellow\")\n```"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca6a6c81hg80",
+                                                    "created": 1616660098139,
+                                                    "text": "散点图",
+                                                    "layout_right_offset": {
+                                                        "x": 4.999999925494194,
+                                                        "y": -7.499999888241234
+                                                    },
+                                                    "note": "```\nplt.scatter(a,b)\n```"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca6a90dpnts0",
+                                                    "created": 1616660307453,
+                                                    "text": "条形图",
+                                                    "note": "竖着\n```\nplt.bar(x, b, width = 0.5)\n```\n横着\n```\nplt.barh(x, b, height = 0.5)\nplt.barh(x2, b, height = 0.5)# 可画多张\n```"
                                                 },
                                                 "children": []
                                             }
@@ -1088,8 +1121,8 @@
                                             "created": 1616577744336,
                                             "text": "保存图片",
                                             "layout_right_offset": {
-                                                "x": 24.583335740284724,
-                                                "y": 360.16666446957356
+                                                "x": 9.58333596380237,
+                                                "y": 445.16666320297486
                                             },
                                             "expandState": "collapse"
                                         },
@@ -1209,6 +1242,29 @@
                                                     "created": 1616599209323,
                                                     "text": "plt.grid()",
                                                     "note": "```\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\nplt.grid() # 显示网格线 1=True=默认显示；0=False=不显示\nplt.grid(1) # 显示网格线\nplt.grid(True) # 显示网格线\nplt.grid(b=True, axis='x') #只显示x轴网格线\nplt.grid(b=True, axis='y') #只显示y轴网格线\nplt.grid(b=1, which='major') # 默认就是major\nplt.grid(c='r') # 颜色\nplt.grid(linestyle='-.') # 设置线条样式\nplt.grid(alpha=0.1) # 设置透明度\ngrid(linewidth=2) # 线条粗细\n```"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca69dyzears0",
+                                            "created": 1616657875122,
+                                            "text": "图例",
+                                            "layout_right_offset": {
+                                                "x": 31,
+                                                "y": -62
+                                            },
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca67n4fqmv40",
+                                                    "created": 1616652950051,
+                                                    "text": "plt.legend()",
+                                                    "note": "将plt.plot中的label显示成图例"
                                                 },
                                                 "children": []
                                             }
