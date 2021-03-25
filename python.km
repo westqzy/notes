@@ -1,0 +1,2667 @@
+{
+    "root": {
+        "data": {
+            "id": "c7vpdm2mzxc0",
+            "created": 1608273508374,
+            "text": "python"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c7vqhv05xqo0",
+                    "created": 1608276662382,
+                    "text": "list",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7vqifpt8co0",
+                            "created": 1608276707469,
+                            "text": "添加元素",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c7vqip40p400",
+                            "created": 1608276727919,
+                            "text": "删除元素",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7vqj5ehzwo0",
+                                    "created": 1608276763381,
+                                    "text": "list.pop()",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7vqj76h2zs0",
+                                    "created": 1608276767250,
+                                    "text": "del list[i]",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7vqj993wu00",
+                                    "created": 1608276771762,
+                                    "text": "list.remove()",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7vrluc2mtc0",
+                            "created": 1608279795492,
+                            "text": "合并",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7vrm0pmfmo0",
+                                    "created": 1608279809372,
+                                    "text": "extend",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7vrm42olnc0",
+                                    "created": 1608279816692,
+                                    "text": "l1+l2",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7vrmbx6buo0",
+                                    "created": 1608279833774,
+                                    "text": "append",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7wj53tm0480",
+                            "created": 1608357475030,
+                            "text": "排序",
+                            "hyperlink": "https://www.cnblogs.com/harrymore/p/9460532.html",
+                            "hyperlinkTitle": "",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7wj57vu5mw0",
+                                    "created": 1608357483872,
+                                    "text": "a.sort()",
+                                    "note": "无返回值,原地修改数组\n\nkey变量的用法参考sorted",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7wj58eq6jc0",
+                                    "created": 1608357485014,
+                                    "text": "b=sorted(a)",
+                                    "note": "```python\n# 降序排序\nb = sorted(a, reverse=True)\n```\n```python\n# 实现对元组列表的排列，i是list1中的元素，这里是一个元组(x,y)\nsort = sorted(list1, key=lambda i: i[0])\n\n# 实现对某种映射的排列，相当于把i映射成list1上的值再排列，但排出来都是还是ans中的值\nsort = sorted(ans, key=lambda i: list1[i])\n# 可以改成元组用以表示主次，如果list1[i]相同，则比较i\nsort = sorted(ans, key=lambda i: (list1[i], i))\n```\n",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7wkvyei5hk0",
+                            "created": 1608362400175,
+                            "text": "翻转",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7wkwg5z2qo0",
+                                    "created": 1608362438842,
+                                    "text": "list.reverse()",
+                                    "note": "无返回值，原地修改",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7wkwgpzleg0",
+                                    "created": 1608362440052,
+                                    "text": "a = list(reversed(li))",
+                                    "note": "reversed()函数返回的是一个迭代器，而不是一个List，所以需要list函数转换一下",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7wkyztlbmo0",
+                                    "created": 1608362638357,
+                                    "text": "a=a[::-1] ",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7wl3m7n0r40",
+                            "created": 1608363000552,
+                            "text": "运算",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7wl3q7an800",
+                                    "created": 1608363009239,
+                                    "text": "求和",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7wl3set48o0",
+                                            "created": 1608363014046,
+                                            "text": "sum",
+                                            "note": "```python\nsum(iterable[, start])\n# iterable -- 可迭代对象，如：列表、元组、集合。\n# start -- 指定相加的参数，如果没有设置这个值，默认为0。\n\n# 例如：\nsum([0,1,2]) \n```\n当列表中只有0，1时可以用来求1的个数",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7y4zjebvj40",
+                                    "created": 1608520663125,
+                                    "text": "最小最大值",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7y4zp8vs6o0",
+                                            "created": 1608520675856,
+                                            "text": "min，max",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c83gok406w00",
+                            "created": 1609061455774,
+                            "text": "转置",
+                            "expandState": "expand",
+                            "layout": null,
+                            "layout_right_offset": {
+                                "x": 4,
+                                "y": -1
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c83gopacmlc0",
+                                    "created": 1609061467041,
+                                    "text": "numpy中",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c83gos74vd40",
+                                    "created": 1609061473377,
+                                    "text": "a = [list(row) for row in zip(*a)]",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8aw57lo99c0",
+                            "created": 1609815997080,
+                            "text": "拷贝",
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": 11
+                            },
+                            "hyperlink": "https://blog.csdn.net/qq_24502469/article/details/104185122",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8aw5n2y49k0",
+                                    "created": 1609816030776,
+                                    "text": "直接复制",
+                                    "note": "两个列表完全等价",
+                                    "layout_right_offset": {
+                                        "x": 0,
+                                        "y": -5
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8aw5zogytk0",
+                                    "created": 1609816058199,
+                                    "text": "浅拷贝",
+                                    "note": "都只实现了第一层的深拷贝\n二维数组就失效了\n"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c8aw62x4k1s0",
+                                            "created": 1609816065253,
+                                            "text": "copy()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8aw6ckfo0w0",
+                                            "created": 1609816086253,
+                                            "text": "列表生成式"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8aw6e8j5ao0",
+                                            "created": 1609816089887,
+                                            "text": " [ : ] 切片"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c8aw76qrkvk0",
+                                    "created": 1609816151939,
+                                    "text": "深拷贝"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c8aw7axprr40",
+                                            "created": 1609816161067,
+                                            "text": "deepcopy()",
+                                            "note": "```\nimport copy\n\nold = [1,[1,2,3],3]\nnew = copy.deepcopy(old)\n```"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7vu4rqxjw80",
+                    "created": 1608286920999,
+                    "text": "模块",
+                    "expandState": "expand",
+                    "layout": null,
+                    "note": "dir(模块)查询用法\n\n两种导入模块的方式\n```\nimport test (as a)\nfrom test import add\n```\n\n以主程序运行\n```\nif __name__ == '__main__':\n    print(\"aaa\")\n```"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7vu53p3gc80",
+                            "created": 1608286947010,
+                            "text": "besect",
+                            "hyperlink": "https://www.cnblogs.com/zhaoyingjie/p/9468935.html",
+                            "hyperlinkTitle": "besect",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7vu5lqjuw80",
+                                    "created": 1608286986280,
+                                    "text": "查找",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7vu5pg331c0",
+                                            "created": 1608286994354,
+                                            "text": "bisect ",
+                                            "note": "```python\n# 返回插入位置\nposition = bisect.bisect(list,13)\n```",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7vu5pyz6n40",
+                                            "created": 1608286995496,
+                                            "text": "bisect_left ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7vu5rasw9s0",
+                                            "created": 1608286998388,
+                                            "text": "bisect_right ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7vu5mb82og0",
+                                    "created": 1608286987530,
+                                    "text": "插入",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7vu6nntdbc0",
+                                            "created": 1608287068832,
+                                            "text": "insort  ",
+                                            "note": "```python\n# 无返回值\nlist.insert(position,13)\n```",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7vu6p7ivpk0",
+                                            "created": 1608287072201,
+                                            "text": "insort_left  ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7vu6px3ekw0",
+                                            "created": 1608287073747,
+                                            "text": "insort_right ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7yzs5xqrq80",
+                            "created": 1608607539681,
+                            "text": "正则re",
+                            "hyperlink": "https://www.runoob.com/regexp/regexp-syntax.html",
+                            "hyperlinkTitle": "",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7yzsrjt9400",
+                                    "created": 1608607586728,
+                                    "text": "正则测试",
+                                    "hyperlink": "https://c.runoob.com/front-end/854",
+                                    "hyperlinkTitle": "",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7z020suyqo0",
+                                    "created": 1608608312144,
+                                    "text": "字符匹配，力扣1446",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7z099otpo00",
+                                            "created": 1608608880040,
+                                            "text": "finditer()",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7z0ao5i1bs0",
+                                            "created": 1608608989888,
+                                            "text": "匹配规则大全",
+                                            "hyperlink": "https://www.cnblogs.com/linjunfu/p/10757593.html",
+                                            "hyperlinkTitle": "",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7z4f5ur95c0",
+                                    "created": 1608620626316,
+                                    "text": "findall",
+                                    "hyperlink": "https://www.cnblogs.com/shenjianping/p/11647473.html",
+                                    "hyperlinkTitle": "",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7z1h1e9wog0",
+                            "created": 1608612310011,
+                            "text": "时间相关",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7z1h7ve60o0",
+                                    "created": 1608612324107,
+                                    "text": "import datetime",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7z1rtnuh280",
+                                            "created": 1608613155181,
+                                            "text": "日期格式转换",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c7z1hjzvge00",
+                                                    "created": 1608612350499,
+                                                    "text": "strptime",
+                                                    "note": "将字符串转化为日期\n```python3\ndate_str = '2006-01-03'\ndate_ = datetime.datetime.strptime(date_str,'%Y-&m-%d')\n```\n",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c7z1i3vsg5s0",
+                                                    "created": 1608612393788,
+                                                    "text": "strftime",
+                                                    "note": "日期格式的转换\n```python3\nanyday=datetime.datetime(year,month,day).strftime(\"%w\")\n# year等是int类型\n\n\ndatetime=datetime.datetime.now().strftime(\"%Y-%m-%d\")\n```",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7z1heojv200",
+                                    "created": 1608612338931,
+                                    "text": "from dateutil.parser import parse",
+                                    "note": "```python3\nfrom dateutil.parser import parse\ntime = parse('Jan 31,2008 10:45 AM')\n```\n几乎万能格式的转换",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c801hjeowhs0",
+                            "created": 1608713909175,
+                            "text": "py中的排列组合itertools",
+                            "hyperlink": "https://www.cnblogs.com/xiao-apple36/p/10861830.html",
+                            "hyperlinkTitle": "",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c801hzhzo3k0",
+                                    "created": 1608713944203,
+                                    "text": "笛卡尔积product",
+                                    "note": "```\nimport itertools\nfor i in itertools.product('BCDEF', repeat = 2):\n    print(''.join(i),end=\",\")\nprint('\\n')\n \n# 输出 BB BC BD BE BF CB CC CD CE CF DB DC DD DE DF EB EC ED EE EF FB FC FD FE FF\n```\n```\n# 元组笛卡尔积\nimport itertools\na = (1, 2)\nb = ('A', 'B', 'C')\nc = itertools.product(a,b)\nfor i in c:\n    print(i,end=\",\")\n \n# 输出(1, 'A') (1, 'B') (1, 'C') (2, 'A') (2, 'B') (2, 'C')\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c801k4laevk0",
+                                    "created": 1608714112015,
+                                    "text": "排列permutations",
+                                    "note": "```\nimport itertools\nfor i in itertools.permutations('BCD', 2):\n    print(''.join(i),end=\",\")\n# 输出 BC BD CB CD DB DC\nprint('\\n')\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c801krf56480",
+                                    "created": 1608714161709,
+                                    "text": "组合combinations",
+                                    "note": "```\nimport itertools\nfor i in itertools.combinations('BCDEF', 2):\n    print(''.join(i),end=\" \")\n# 输出 BC BD BE BF CD CE CF DE DF EF\nprint('\\n')\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c801ldwdwwo0",
+                                    "created": 1608714210641,
+                                    "text": "包含自身的组合combinations_with_replacement",
+                                    "note": "```\nimport itertools\nfor i in itertools.combinations_with_replacement('ABC', 3):\n    print (''.join(i),end=' ')\n \n# 输出 AAA AAB AAC ABB ABC ACC BBB BBC BCC CCC\nprint('\\n')\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c801miixdk00",
+                            "created": 1608714299075,
+                            "text": "collections",
+                            "expandState": "collapse",
+                            "hyperlink": "https://www.jianshu.com/p/47f66ff4ab7b",
+                            "hyperlinkTitle": "",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c801n0465uo0",
+                                    "created": 1608714337365,
+                                    "text": "Counter",
+                                    "note": "```\nc = collections.Counter(['eggs','ham'])\n```\n",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c801q350y200",
+                                    "created": 1608714579040,
+                                    "text": "一些字典不支持的方法",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c801qf6856o0",
+                                            "created": 1608714605234,
+                                            "text": "element()",
+                                            "note": "返回一个迭代器，每个元素重复的次数为它的数目，顺序是任意的顺序，如果一个元素的数目少于1，那么elements()就会忽略它\n```\nimport collections\nl1 = collections.Counter(\"aaaabsddccc\")\nprint(l1)\nfor i in l1.elements():\n    print(i)\n```",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c801vzfouk80",
+                                            "created": 1608715041162,
+                                            "text": "most_common()",
+                                            "note": "返回一个列表，包含counter中n个最大数目的元素，如果忽略n或者为None，most_common()将会返回counter中的所有元素，元素有着相同数目的将会以任意顺序排列\n```\nimport collections\nl1 = collections.Counter(\"aaaabsddccc\")\nprint(l1.most_common(1))\n# [('a', 4)]\n```\n```\nprint(l1.most_common())\n# [('a', 4), ('c', 3), ('d', 2), ('b', 1), ('s', 1)]\n```\n\n```\nhash1 = collections.Counter(nums)\nreturn [i[0] for i in hash1.most_common(k)]\n\n```",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8037sic8wo0",
+                                            "created": 1608718787565,
+                                            "text": "subtract()",
+                                            "note": "从一个可迭代对象中或者另一个映射（或counter）中，元素相减\n```\n>>> c = Counter(a=4,b=2,c=0,d=-2)\n>>> d = Counter(a=1,b=2,c=-3,d=4)\n>>> c.subtract(d)\n>>> c\nCounter({'a': 3, 'c': 3, 'b': 0, 'd': -6})\n```",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8038ubvc4o0",
+                                            "created": 1608718869891,
+                                            "text": "update()",
+                                            "note": "从一个可迭代对象中或者另一个映射（或counter）中所有元素相加\n```\n>>> c\nCounter({'a': 4, 'b': 2, 'c': 0, 'd': -2})\n>>> d\nCounter({'d': 4, 'b': 2, 'a': 1, 'c': -3})\n>>> c.update(d)\n>>> c\nCounter({'a': 5, 'b': 4, 'd': 2, 'c': -3})\n```\n",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c803fin9xxk0",
+                                    "created": 1608719393009,
+                                    "text": "defaultdict",
+                                    "note": "```\n d = defaultdict(int)\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c803gd2ervs0",
+                                    "created": 1608719459227,
+                                    "text": "OrderedDict",
+                                    "note": "可能会很有用\n```\nd = {\"banana\":3,\"apple\":2,\"pear\":1,\"orange\":4}\na = OrderedDict(sorted(d.items(),key = lambda t:t[1]))\n\n# OrderedDict([('pear', 1), ('apple', 2), ('banana', 3), ('orange', 4)])\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c803pz74ko00",
+                                    "created": 1608720212679,
+                                    "text": "namedtuple",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c803q2ptrk00",
+                                    "created": 1608720220340,
+                                    "text": "deque",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca59b3a3d540",
+                            "created": 1616556089426,
+                            "text": "copy",
+                            "expandState": "collapse",
+                            "layout_right_offset": {
+                                "x": 6.2499999068677425,
+                                "y": -1.2499999813735485
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca59b6kg8t40",
+                                    "created": 1616556096583,
+                                    "text": "浅拷贝"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca59bd5dp940",
+                                            "created": 1616556110909,
+                                            "text": ".copy()"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca59bfvna5c0",
+                                    "created": 1616556116851,
+                                    "text": "深拷贝"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca59bmvx8c80",
+                                            "created": 1616556132105,
+                                            "text": ".deepcopy()"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca5glm40n680",
+                            "created": 1616576661829,
+                            "text": "数据处理",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7vrhd3xo4g0",
+                                    "created": 1608279444538,
+                                    "text": "numpy",
+                                    "layout_mind_offset": {
+                                        "x": 529.9999991208315,
+                                        "y": 22
+                                    },
+                                    "expandState": "collapse",
+                                    "layout": null,
+                                    "layout_right_offset": {
+                                        "x": -5.000001167257608,
+                                        "y": 104.99999980131781
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7vrhxor2wo0",
+                                            "created": 1608279489333,
+                                            "text": "构造",
+                                            "expandState": "expand",
+                                            "layout": null,
+                                            "layout_right_offset": {
+                                                "x": 82.4999987706542,
+                                                "y": 47.4999992921949
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca5gbt6jzp40",
+                                                    "created": 1616575893578,
+                                                    "text": "构造向量",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c7vri6xy8bk0",
+                                                            "created": 1608279509480,
+                                                            "text": "np.array(list)",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca5gb31oai00",
+                                                            "created": 1616575836687,
+                                                            "text": "np.arange(10)"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca5gbxta1vk0",
+                                                            "created": 1616575903659,
+                                                            "text": "np.linspace(1,19,10,endpoint=False)"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca5gc6td1v40",
+                                                            "created": 1616575923255,
+                                                            "text": "np.zeros(20,np.int)"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca5gc925dio0",
+                                                            "created": 1616575928140,
+                                                            "text": "np.ones(20,np.int)"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca5gcd3dtjs0",
+                                                            "created": 1616575936922,
+                                                            "text": "np.random.randn(10)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca5gc11ce340",
+                                                    "created": 1616575910677,
+                                                    "text": "构造矩阵"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ca5gd4lr8tc0",
+                                                            "created": 1616575996806,
+                                                            "text": "np.mat(list/向量)",
+                                                            "layout_right_offset": {
+                                                                "x": 55,
+                                                                "y": -1
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7vrijb2us00",
+                                            "created": 1608279536395,
+                                            "text": "合并",
+                                            "expandState": "expand",
+                                            "note": null,
+                                            "hyperlink": "https://blog.csdn.net/jingbo18/article/details/80421715",
+                                            "hyperlinkTitle": "合并",
+                                            "layout": null,
+                                            "layout_right_offset": {
+                                                "x": 268.7499952502553,
+                                                "y": 21.666666240327856
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c7vrj4yyovs0",
+                                                    "created": 1608279583552,
+                                                    "text": "append",
+                                                    "expandState": "expand",
+                                                    "note": "```python\nc = np.append(a, b, axis=1)\n```",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c7vrms7cvz40",
+                                                    "created": 1608279869218,
+                                                    "text": "concatenate",
+                                                    "expandState": "expand",
+                                                    "note": "```python\nc = np.concatenate((a, b),axis=0)\n```",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7wm1c6gypk0",
+                                            "created": 1608365643095,
+                                            "text": "改变维度",
+                                            "expandState": "expand",
+                                            "layout": null,
+                                            "layout_right_offset": {
+                                                "x": 66.24999901279807,
+                                                "y": -32.49999951571226
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c7xdrcvv5p40",
+                                                    "created": 1608443852067,
+                                                    "text": "resahpe",
+                                                    "layout": null,
+                                                    "note": "```\nb=np.arange(24).reshape(2,3,4)\n```"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c8eh3bmbh400",
+                                                    "created": 1610179772276,
+                                                    "text": "展平.flatten()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7xds4jvpj40",
+                                            "created": 1608443912292,
+                                            "text": "转置",
+                                            "expandState": "expand",
+                                            "layout": null,
+                                            "layout_right_offset": {
+                                                "x": -8.749999869614726,
+                                                "y": -71.24999893829238
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c7xdsd3hj000",
+                                                    "created": 1608443930892,
+                                                    "text": "reshape",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c7xdsdwmqv40",
+                                                    "created": 1608443932654,
+                                                    "text": "transpose",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c7xdsegb1x40",
+                                                    "created": 1608443933844,
+                                                    "text": "swapaxes",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca5gfri92jk0",
+                                                    "created": 1616576203388,
+                                                    "text": ".T",
+                                                    "note": "```\nmat1 = np.mat([[1,2,3], [4,5,6]])\nprint(mat1.T)\n```"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca5glr6yrx40",
+                                    "created": 1616576672891,
+                                    "text": "matplotlib",
+                                    "layout_right_offset": {
+                                        "x": 39.99999841054273,
+                                        "y": -43.333331611421556
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca5goqzflgg0",
+                                            "created": 1616576907528,
+                                            "text": "画图plt.plot(x,y)",
+                                            "layout_right_offset": {
+                                                "x": 1.6666666004391573,
+                                                "y": -41.66666501098223
+                                            },
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca5gpu8te740",
+                                                    "created": 1616576992990,
+                                                    "text": "显示plt.show()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca5gv9g45480",
+                                            "created": 1616577417904,
+                                            "text": "设置图片参数",
+                                            "expandState": "expand",
+                                            "layout_right_offset": {
+                                                "x": 3.3333332008786556,
+                                                "y": -46.666664812299985
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca5gvf6twvs0",
+                                                    "created": 1616577430403,
+                                                    "text": "plt.figure()",
+                                                    "note": "```\nfigure(num=None, figsize=None, dpi=None, facecolor=None, edgecolor=None, frameon=True)\n```\nnum:图像编号或名称，数字为编号 ，字符串为名称\nfigsize:指定figure的宽和高，单位为英寸；\ndpi参数指定绘图对象的分辨率，即每英寸多少个像素，缺省值为80      1英寸等于2.5cm,A4纸是 21*30cm的纸张 \nfacecolor:背景颜色\nedgecolor:边框颜色\nframeon:是否显示边框\n\n```\nfig=plt.figure(figsize=(4,3),facecolor='blue')\nplt.show()\n```\n"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca5gzfepp880",
+                                            "created": 1616577744336,
+                                            "text": "保存图片",
+                                            "layout_right_offset": {
+                                                "x": 24.583335740284724,
+                                                "y": 360.16666446957356
+                                            },
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca5gzk5vg0w0",
+                                                    "created": 1616577754686,
+                                                    "text": "plt.savefig(\"path\")",
+                                                    "layout_right_offset": {
+                                                        "x": -6.666666401757084,
+                                                        "y": 21.66666580571058
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca5h0v2l08o0",
+                                            "created": 1616577856796,
+                                            "text": "绘制坐标轴",
+                                            "layout_right_offset": {
+                                                "x": 24.166665706369713,
+                                                "y": -106.66666242811425
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca5h1ptopr40",
+                                                    "created": 1616577923738,
+                                                    "text": "X轴plt.xticks()",
+                                                    "note": "```\nxticks(ticks, [labels], **kwargs)\n```\nticks：数组类型，用于设置X轴刻度间隔\n[labels]：数组类型，用于设置每个间隔的显示标签\n**kwargs：用于设置标签字体倾斜度和颜色等外观属性。\n```\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport calendar\nx = range(1,13,1)\ny = range(1,13,1)\nplt.plot(x,y)\nplt.xticks(x, calendar.month_name[1:13],color='blue',rotation=60)\nplt.show()\n```"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca5h1s3z52g0",
+                                                    "created": 1616577928714,
+                                                    "text": "Y轴plt.yticks()",
+                                                    "layout_right_offset": {
+                                                        "x": 12.499999503294703,
+                                                        "y": -9.999999602635683
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca5hhorqfb40",
+                                            "created": 1616579175270,
+                                            "text": "设置中文字体",
+                                            "note": "方法一：\n```\nimport matplotlib\nfont = {'family' : 'MicroSoft YaHei',\n        'weight' : 'bold',\n        'size'   : 15 # size或者去掉}\nmatplotlib.rc(\"font\", **font)\n```\n方法二\n```\nfrom matplotlib import font_manager\nmy_font = font_manager.FontProperties(fname=\"C:/Windows/Fonts/SIMSUN.ttc\")\n# 放入自己的字体库中的中文字体\nplt.xlabel(\"月份\",fontproperties=my_font)\n```\n方法三\n```\n# 添加两行\nfrom pylab import *\nmpl.rcParams['font.sans-serif'] = ['SimHei']\n```",
+                                            "layout_right_offset": {
+                                                "x": 41.41666836995216,
+                                                "y": 116.24999398365628
+                                            }
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca5ocxr16n40",
+                                            "created": 1616598550767,
+                                            "text": "添加描述信息",
+                                            "layout_right_offset": {
+                                                "x": 39.166665110323265,
+                                                "y": -104.1666625274554
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca5od581f340",
+                                                    "created": 1616598567033,
+                                                    "text": "plt.xlabel(\"x\")"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca5oehc2h340",
+                                                    "created": 1616598671762,
+                                                    "text": "plt.ylabel(\"y\")"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca5oeqjxu5k0",
+                                                    "created": 1616598691829,
+                                                    "text": "plt.title(\"标题\")"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca5oklpxpbk0",
+                                            "created": 1616599151492,
+                                            "text": "绘制网格",
+                                            "layout_right_offset": {
+                                                "x": 25.833332306808984,
+                                                "y": -333.33332008785726
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca5olcacldc0",
+                                                    "created": 1616599209323,
+                                                    "text": "plt.grid()",
+                                                    "note": "```\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\nplt.grid() # 显示网格线 1=True=默认显示；0=False=不显示\nplt.grid(1) # 显示网格线\nplt.grid(True) # 显示网格线\nplt.grid(b=True, axis='x') #只显示x轴网格线\nplt.grid(b=True, axis='y') #只显示y轴网格线\nplt.grid(b=1, which='major') # 默认就是major\nplt.grid(c='r') # 颜色\nplt.grid(linestyle='-.') # 设置线条样式\nplt.grid(alpha=0.1) # 设置透明度\ngrid(linewidth=2) # 线条粗细\n```"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7wmknvrbkw0",
+                    "created": 1608367157488,
+                    "text": "str",
+                    "expandState": "expand",
+                    "hyperlink": "https://www.runoob.com/python/python-strings.html",
+                    "hyperlinkTitle": "",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7wmkqbgzvk0",
+                            "created": 1608367162792,
+                            "text": "计数",
+                            "layout_left_offset": {
+                                "x": -63.49999929219496,
+                                "y": -128.75000046566123
+                            },
+                            "hyperlink": "https://www.runoob.com/python/att-string-count.html",
+                            "hyperlinkTitle": "",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7wmkuzp1iw0",
+                                    "created": 1608367172964,
+                                    "text": ".count()",
+                                    "note": "```python\nstr.count(sub, start=0, end=len(string))\n```\n",
+                                    "layout_left_offset": {
+                                        "x": 17,
+                                        "y": -12
+                                    },
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca33n3937jk0",
+                            "created": 1616336983163,
+                            "text": "字符串对齐",
+                            "expandState": "collapse",
+                            "layout_right_offset": {
+                                "x": 49,
+                                "y": 197
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca33na66e740",
+                                    "created": 1616336998224,
+                                    "text": "居中center()",
+                                    "layout_right_offset": {
+                                        "x": -1.6666666004393278,
+                                        "y": -3.333333200878542
+                                    },
+                                    "note": "第一个参数指定宽度，第二个参数指定填充符，默认为空格\n```\na = \"hello python\"\nprint(a.center(20, \"*\"))\n# ****hello python****\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca33p7xvmzk0",
+                                    "created": 1616337150097,
+                                    "text": "左对齐ljust()",
+                                    "layout_right_offset": {
+                                        "x": 4.1666665010981205,
+                                        "y": -4.9999998013179265
+                                    },
+                                    "note": "```\na = \"hello python\"\nprint(a.ljust(20, \"*\"))\n# hello python********\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca33q1kkyog0",
+                                    "created": 1616337214597,
+                                    "text": "右对齐rjust()",
+                                    "layout_right_offset": {
+                                        "x": 9.99999960263574,
+                                        "y": -5.833333101537619
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca33qvh1ts80",
+                                    "created": 1616337279687,
+                                    "text": "右对齐，左边用0进行填充zfill()",
+                                    "layout_right_offset": {
+                                        "x": -21.666665805710693,
+                                        "y": -0.833333300219465
+                                    },
+                                    "note": "```\na = \"-2918\"\nprint(a.zfill(9))\n# -00002918\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7z0no3y8bk0",
+                            "created": 1608610008528,
+                            "text": "分割",
+                            "layout_left_offset": {
+                                "x": -87.49999869614834,
+                                "y": -116.24999826774012
+                            },
+                            "expandState": "expand",
+                            "layout": null,
+                            "layout_right_offset": {
+                                "x": 11,
+                                "y": -36
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7z0o36zv400",
+                                    "created": 1608610041364,
+                                    "text": "split()/rsplit()",
+                                    "layout": null,
+                                    "layout_right_offset": {
+                                        "x": 19,
+                                        "y": 2
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c81yboe8lts0",
+                            "created": 1608908106430,
+                            "text": "查询",
+                            "layout_left_offset": {
+                                "x": -107,
+                                "y": -149
+                            },
+                            "layout": null,
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": -32
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c81ybt3hjl40",
+                                    "created": 1608908116664,
+                                    "text": "find",
+                                    "note": "```\nstr.find(str, beg=0, end=len(string))\n```\n找不到返回-1\n不可用于列表\n",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c81yc0ir03c0",
+                                    "created": 1608908132824,
+                                    "text": "rfind",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c81yd5a558g0",
+                                    "created": 1608908221552,
+                                    "text": "index",
+                                    "note": "找不到会报异常",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c81yda2d7og0",
+                                    "created": 1608908231966,
+                                    "text": "rindex",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c845077k3co0",
+                            "created": 1609130074698,
+                            "text": "丢弃空格",
+                            "layout": null,
+                            "layout_right_offset": {
+                                "x": 28.24999998137355,
+                                "y": -32.499999813735485
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8450ffuy5c0",
+                                    "created": 1609130092614,
+                                    "text": "strip",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8450jpyuxk0",
+                                    "created": 1609130101932,
+                                    "text": "rstrip",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca33h7dpujk0",
+                            "created": 1616336521965,
+                            "text": "大小写转换",
+                            "layout_right_offset": {
+                                "x": 27,
+                                "y": 48
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca33hb1borc0",
+                                    "created": 1616336529923,
+                                    "text": "upper()",
+                                    "layout_right_offset": {
+                                        "x": -7.083333517528217,
+                                        "y": -37.49999968955899
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca33helwa3k0",
+                                    "created": 1616336537697,
+                                    "text": "lower()",
+                                    "layout_right_offset": {
+                                        "x": -0.41666692950661854,
+                                        "y": -14.999999590218067
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca33hkeg9i00",
+                                    "created": 1616336550307,
+                                    "text": "swapcase()",
+                                    "note": "大写转小写，小写转大写",
+                                    "layout_right_offset": {
+                                        "x": 0.8333324930734989,
+                                        "y": -7.083333082911167
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca33i69ay000",
+                                    "created": 1616336597885,
+                                    "text": "capitalize()",
+                                    "layout_right_offset": {
+                                        "x": 11.66666620307501,
+                                        "y": -3.333333200878542
+                                    },
+                                    "note": "第一个字母大写，其余改为小写"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca33j6912xc0",
+                                    "created": 1616336676233,
+                                    "text": "title()",
+                                    "note": "每个单词第一个字母大写，剩余字符小写",
+                                    "layout_right_offset": {
+                                        "x": 16.666666004392823,
+                                        "y": -12.499999503294703
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca34ab5gt9k0",
+                            "created": 1616338802734,
+                            "text": "判断方法",
+                            "layout_right_offset": {
+                                "x": 3,
+                                "y": 57
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca34ahvk8i00",
+                                    "created": 1616338817372,
+                                    "text": "是否是合法标识符isidentifier()",
+                                    "layout_right_offset": {
+                                        "x": 20,
+                                        "y": -16
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca34bswsxag0",
+                                    "created": 1616338919756,
+                                    "text": "是否全由空白字符组成isspace()",
+                                    "layout_right_offset": {
+                                        "x": 11,
+                                        "y": 0
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca34cjlv3nk0",
+                                    "created": 1616338977869,
+                                    "text": "是否全是字母isalpha()",
+                                    "layout_right_offset": {
+                                        "x": 27,
+                                        "y": -4
+                                    },
+                                    "note": "中文也算\n```\na = \"你好\"\nprint(a.isalpha())\n# True\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca34cvvmylc0",
+                                    "created": 1616339004580,
+                                    "text": "是否全是十进制数字isdecimal()",
+                                    "layout_right_offset": {
+                                        "x": 1,
+                                        "y": 0
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca34daig2m00",
+                                    "created": 1616339036434,
+                                    "text": "是否全是数字isnumeric()",
+                                    "layout_right_offset": {
+                                        "x": 14,
+                                        "y": -1
+                                    },
+                                    "note": "```\na = \"123四\"\nprint(a.isnumeric())\n# True\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca34dywiwhc0",
+                                    "created": 1616339089528,
+                                    "text": "是否是数字和字母isalnum()",
+                                    "layout_right_offset": {
+                                        "x": 25,
+                                        "y": 2
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca3ps6datyo0",
+                            "created": 1616399446187,
+                            "text": "替换",
+                            "layout_right_offset": {
+                                "x": -4,
+                                "y": 95
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca3psqowlu80",
+                                    "created": 1616399490424,
+                                    "text": "replace()"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca3pshtmj0w0",
+                            "created": 1616399471118,
+                            "text": "合并",
+                            "layout_right_offset": {
+                                "x": -13,
+                                "y": 125
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca3pt03ozqo0",
+                                    "created": 1616399510909,
+                                    "text": "join()",
+                                    "note": "```\na = [\"aa\",\"ee\",\"eee\"]\nprint(\"|\".join(a))\n# aa|ee|eee\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca3rilf8ke00",
+                            "created": 1616404337534,
+                            "text": "格式化字符串",
+                            "layout_right_offset": {
+                                "x": -27,
+                                "y": 176
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca3rkfvaqps0",
+                                    "created": 1616404482172,
+                                    "text": "%",
+                                    "layout_right_offset": {
+                                        "x": -23,
+                                        "y": -34
+                                    },
+                                    "note": "```\nname = \"qzy\"\nage = 25\nprint(\"我叫%s，今年%d岁\" % (name, age))\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca3rmcy65b40",
+                                    "created": 1616404632544,
+                                    "text": "{}加format",
+                                    "layout_right_offset": {
+                                        "x": -20,
+                                        "y": -34
+                                    },
+                                    "note": "```\nname = \"qzy\"\nage = 25\nprint(\"我叫{0}，今年{1}岁\".format(name, age))\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca3rnzaf1rs0",
+                                    "created": 1616404759538,
+                                    "text": "f",
+                                    "note": "```\nname = \"qzy\"\nage = 25\nprint(f\"我叫{name}，今年{age}岁\")\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c82pztwt0m80",
+                    "created": 1608986169144,
+                    "text": "力扣",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -233.74999651685366,
+                        "y": 76.24999886378646
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c82q01pos0o0",
+                            "created": 1608986186128,
+                            "text": "ListNode",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c82q0hlu9hc0",
+                                    "created": 1608986220724,
+                                    "text": "基本结构",
+                                    "note": "```\ndef __init__(self, val=0, next=None):\n         self.val = val\n         self.next = next\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c82q0tyvodc0",
+                                    "created": 1608986247634,
+                                    "text": "基本用法",
+                                    "note": "调用/创建\n```\nres = ListNode(None)\n```\n遍历\n```\nwhile l1:\n\tl1 = l1.next\n```\n添加元素到链表\n```\n# 循环加赋值\nres.next = ListNode(1)\nres = res.next\n```",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c82sd7nwahk0",
+                            "created": 1608992860035,
+                            "text": "中等题",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c82sdf8l09s0",
+                                    "created": 1608992876523,
+                                    "text": "链表",
+                                    "note": "2",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c82sdovglnk0",
+                                    "created": 1608992897497,
+                                    "text": "滑动窗口",
+                                    "note": "3",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c83ezhccr9s0",
+                                    "created": 1609056669534,
+                                    "text": "dp",
+                                    "note": "5,62,63,64",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c847sn1a5ts0",
+                                    "created": 1609137945563,
+                                    "text": "双指针",
+                                    "note": "两数三数四数求和\n11\n15\n16\n18,80",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c85brqkn25s0",
+                                    "created": 1609250719296,
+                                    "text": "回溯",
+                                    "note": "排序/枚举\n17，22，39，40,46,47,77,78\n\n79*",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c87sqirn1q00",
+                                    "created": 1609501702723,
+                                    "text": "贪心",
+                                    "note": "31,55"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c87v33m3pdk0",
+                                    "created": 1609508330690,
+                                    "text": "二分搜索",
+                                    "note": "33,34,74"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c849257bvzc0",
+                    "created": 1609141511499,
+                    "text": "内置函数 ",
+                    "layout": null,
+                    "expandState": "collapse",
+                    "layout_mind_offset": {
+                        "x": -193.74999711290002,
+                        "y": -48.74999927356839
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c8492al972o0",
+                            "created": 1609141523224,
+                            "text": "divmod(a, b)",
+                            "note": "如果参数 a 与 参数 b 都是整数，函数返回的结果相当于 (a // b, a % b)",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ca30tvfq3a80",
+                    "created": 1616329051369,
+                    "text": "集合",
+                    "layout_mind_offset": {
+                        "x": -138.74999793246394,
+                        "y": -246.24999633058928
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ca30u06t12w0",
+                            "created": 1616329061714,
+                            "text": "添加元素",
+                            "layout_left_offset": {
+                                "x": -8.74999986961484,
+                                "y": -274.9999959021808
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca30uboy6k80",
+                                    "created": 1616329086755,
+                                    "text": "add()",
+                                    "layout_left_offset": {
+                                        "x": -83.74999875202775,
+                                        "y": -106.2499984167514
+                                    },
+                                    "note": "```\ns.add(80)\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca30ufz76i00",
+                                    "created": 1616329096082,
+                                    "text": "update()",
+                                    "layout_left_offset": {
+                                        "x": -47.49999929219484,
+                                        "y": -83.74999875202752
+                                    },
+                                    "note": "```\ns.update({100, 20, 30})\ns.update([100, 20, 30])#列表\ns.update((100, 20, 30))#元组\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca30yzxbcao0",
+                            "created": 1616329452961,
+                            "text": "删除元素",
+                            "layout_left_offset": {
+                                "x": -14.999999776482582,
+                                "y": -281.2499958090484
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca30z5kocu80",
+                                    "created": 1616329465257,
+                                    "text": "remove()",
+                                    "note": "若删除元素不存在，抛出异常",
+                                    "layout_left_offset": {
+                                        "x": 6.249999906867686,
+                                        "y": -187.49999720603273
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca30zpr4wgw0",
+                                    "created": 1616329509183,
+                                    "text": "discard() ",
+                                    "note": "若删除元素不存在，不抛出异常",
+                                    "layout_left_offset": {
+                                        "x": 3.7499999441206455,
+                                        "y": -153.74999770894658
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca3106phie80",
+                                    "created": 1616329546089,
+                                    "text": "pop()",
+                                    "layout_left_offset": {
+                                        "x": -29.99999955296522,
+                                        "y": -139.99999791383766
+                                    },
+                                    "note": "随机删一个\n无参"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca312246ss00",
+                                    "created": 1616329692822,
+                                    "text": "clear()",
+                                    "note": "清空集合",
+                                    "layout_left_offset": {
+                                        "x": -14.999999776482582,
+                                        "y": -118.74999823048734
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca3137vgfnc0",
+                            "created": 1616329783719,
+                            "text": "集合间关系",
+                            "layout_left_offset": {
+                                "x": -21.249999683350268,
+                                "y": -287.49999571591627
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca313f3w1g00",
+                                    "created": 1616329799467,
+                                    "text": "是否相等 ==",
+                                    "layout_left_offset": {
+                                        "x": -11.249999832361937,
+                                        "y": -38.74999942258012
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca314a1d82o0",
+                                    "created": 1616329866794,
+                                    "text": "子集issubset()",
+                                    "layout_left_offset": {
+                                        "x": -33.74999949708581,
+                                        "y": -4.999999925494308
+                                    },
+                                    "note": "```\na = {1,2,3,4}\nb = {1,2}\nprint(b.issubset(a))\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca316yk1nkg0",
+                                    "created": 1616330076895,
+                                    "text": "超集issuperset()",
+                                    "layout_left_offset": {
+                                        "x": -39.99999940395355,
+                                        "y": -3.7499999441206455
+                                    },
+                                    "note": "```\na = {1,2,3,4}\nb = {1,2}\nprint(a.issuperset(b))\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca3187engfk0",
+                                    "created": 1616330174524,
+                                    "text": "是否有交集isdisjoint()",
+                                    "layout_left_offset": {
+                                        "x": -59.99999910593033,
+                                        "y": 12.499999813735485
+                                    },
+                                    "note": "```\na = {1,2,3,4}\nb = {1,2}\nprint(a.isdisjoint(b))\n# False:有交集\n# True: 没有交集\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca31bc7o5q80",
+                            "created": 1616330420078,
+                            "text": "数学操作",
+                            "layout_left_offset": {
+                                "x": -38.74999942258012,
+                                "y": -281.2499958090484
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca31blv763c0",
+                                    "created": 1616330441092,
+                                    "text": "交集intersection()或者&",
+                                    "note": "```\na = {1,2,3,4}\nb = {1,2}\nprint(a.intersection(b))\nprint(a & b)\n```",
+                                    "layout_left_offset": {
+                                        "x": -8.74999986961484,
+                                        "y": -21.24999968335021
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca31cni5iy00",
+                                    "created": 1616330523021,
+                                    "text": "并集union()或者|",
+                                    "layout_left_offset": {
+                                        "x": -39.99999940395355,
+                                        "y": -31.249999534338713
+                                    },
+                                    "note": "```\na = {1,2,3,4}\nb = {1,2,7}\nprint(a.union(b))\nprint(a | b)\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca31gbdloc00",
+                                    "created": 1616330810081,
+                                    "text": "差集difference()或者-",
+                                    "note": "```\na = {1,2,3,4}\nb = {1,2,7}\nprint(a.difference(b))\nprint(a - b)\n```",
+                                    "layout_left_offset": {
+                                        "x": -57.49999914318323,
+                                        "y": -4.99999992549408
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca31hza2a0g0",
+                                    "created": 1616330940474,
+                                    "text": "对称差集symmetric_difference()或者^",
+                                    "layout_left_offset": {
+                                        "x": 22.499999664723816,
+                                        "y": 2.4999999627469833
+                                    },
+                                    "note": "```\na = {1,2,3,4}\nb = {1,2,7}\nprint(a.symmetric_difference(b))\nprint(a ^ )\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ca4rh2iih0g0",
+                    "created": 1616505777965,
+                    "text": "异常机制",
+                    "layout_mind_offset": {
+                        "x": -352.49999936670065,
+                        "y": 310.49999802559626
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ca4rh5qeee80",
+                            "created": 1616505784973,
+                            "text": "try-except",
+                            "layout_left_offset": {
+                                "x": -168,
+                                "y": -27
+                            },
+                            "note": "```\ntry:\n    a = input(\"请输入正整数\")\n    print(10 / int(a))\nexcept ZeroDivisionError:\n    print(\"除数为0\")\nexcept ValueError:\n    print(\"非法字母\")\nexcept BaseException as e:\n    print(\"出错了\", e)\n```"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ca4rhsk5p6w0",
+                            "created": 1616505834661,
+                            "text": "try-except-else",
+                            "layout_left_offset": {
+                                "x": -138,
+                                "y": -16
+                            },
+                            "note": "```\ntry:\n    a = input(\"请输入正整数\")\n    print(10 / int(a))\nexcept ZeroDivisionError:\n    print(\"除数为0\")\nexcept ValueError:\n    print(\"非法字母\")\nexcept BaseException as e:\n    print(\"出错了\", e)\nelse:\n    print(\"未发现异常\")\n```"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ca4rmaqjx1s0",
+                            "created": 1616506187687,
+                            "text": "try-except-else",
+                            "layout_left_offset": {
+                                "x": -94,
+                                "y": 8
+                            },
+                            "note": "```\ntry:\n    a = input(\"请输入正整数\")\n    print(10 / int(a))\nexcept ZeroDivisionError:\n    print(\"除数为0\")\nexcept BaseException as e:\n    print(\"出错了\", e)\nfinally:\n    print(\"无论是否异常都会执行\")\n```"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ca4rnh9a2880",
+                            "created": 1616506280245,
+                            "text": "常见异常",
+                            "layout_left_offset": {
+                                "x": -135,
+                                "y": 0
+                            },
+                            "hyperlink": "https://blog.csdn.net/php_lina/article/details/56486751",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ca4romos1400",
+                            "created": 1616506370429,
+                            "text": "traceback",
+                            "layout_left_offset": {
+                                "x": -124,
+                                "y": 40
+                            },
+                            "note": "```\nimport traceback\ntry:\n    print(1/0)\nexcept:\n    traceback.print_exc()\n```"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ca4rrovfacg0",
+                    "created": 1616506610277,
+                    "text": "类与对象",
+                    "layout_mind_offset": {
+                        "x": -680.3333333333333,
+                        "y": -65.66666666666669
+                    },
+                    "expandState": "expand",
+                    "note": "dir(类/对象)可以查询参数或者方法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ca4skdvk1ls0",
+                            "created": 1616508858901,
+                            "text": "类模板",
+                            "layout_left_offset": {
+                                "x": -82.49999877065432,
+                                "y": -4.999999925494137
+                            },
+                            "note": "类属性\n实例属性\n\n初始化方法\n实例方法\n静态方法\n类方法\n```\nclass Student:\n    # 类属性\n    native_pace = \"江苏\"          \n\n    # 初始化方法\n    def __init__(self, name, age) -> None:\n        self.name = name    # 实例属性\n        self.age = age\n\n    # 实例方法\n    # 如果不希望被外部访问，前面加两个_    实例方法和实例属性都是\n    def eat(self):\n        print(\"学生吃饭\")\n\n    # 静态方法\n    @staticmethod\n    def method():\n        print(\"使用了静态方法\")\n    \n    # 类方法\n    @classmethod\n    def  cm(cls):\n        print(\"使用了类方法\")\n```"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ca4smnxngfc0",
+                            "created": 1616509037524,
+                            "text": "创建对象",
+                            "layout_left_offset": {
+                                "x": -105.74999867752194,
+                                "y": -4.749999795109034
+                            },
+                            "note": "```\nstu1 = Student(\"qzy\", 23)\n```"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ca4sp282tdk0",
+                            "created": 1616509225358,
+                            "text": "方法的调用",
+                            "layout_left_offset": {
+                                "x": -107.08333417152357,
+                                "y": -21.00000156462181
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca4swhv8n880",
+                                    "created": 1616509807959,
+                                    "text": "实例方法",
+                                    "layout_left_offset": {
+                                        "x": 17.33333333333337,
+                                        "y": -11.333333333333314
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca4sply8p280",
+                                            "created": 1616509268298,
+                                            "text": "类名.实例方法(对象)",
+                                            "note": "```\nStudent.eat(stu1)\n```"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca4spg8acwo0",
+                                            "created": 1616509255845,
+                                            "text": "对象名.实例方法()",
+                                            "note": "```\nstu1.eat()\n```"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca4swtxxbxs0",
+                                    "created": 1616509834243,
+                                    "text": "静态方法",
+                                    "layout_left_offset": {
+                                        "x": -14,
+                                        "y": 3.3333333333333144
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca4sz2o8wig0",
+                                            "created": 1616510009977,
+                                            "text": "类名.静态方法()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca4szq4kii00",
+                                            "created": 1616510061030,
+                                            "text": "对象名.静态方法()",
+                                            "layout_left_offset": {
+                                                "x": -4.666666666666629,
+                                                "y": 0
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca4sx5oa3p40",
+                                    "created": 1616509859781,
+                                    "text": "类方法",
+                                    "layout_left_offset": {
+                                        "x": -44.49999951571226,
+                                        "y": 3.6666668901841035
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca4sy7db3n40",
+                                            "created": 1616509941835,
+                                            "text": "类名.类方法()",
+                                            "layout_left_offset": {
+                                                "x": -6.666666666666629,
+                                                "y": 2.6666666666666856
+                                            }
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca4szzddskg0",
+                                            "created": 1616510081154,
+                                            "text": "对象名.类方法()",
+                                            "layout_left_offset": {
+                                                "x": -31.999999999999886,
+                                                "y": 4.666666666666686
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca4ssrda23k0",
+                            "created": 1616509515184,
+                            "text": "属性的调用",
+                            "expandState": "collapse",
+                            "layout_left_offset": {
+                                "x": -102.49999847263109,
+                                "y": -6.249999906867799
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca4ssy70rzs0",
+                                    "created": 1616509530043,
+                                    "text": "类属性",
+                                    "layout_left_offset": {
+                                        "x": -19.333333333333258,
+                                        "y": -26
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca4st4fercw0",
+                                            "created": 1616509543611,
+                                            "text": "对象名.类属性",
+                                            "layout_left_offset": {
+                                                "x": -33.333333035310375,
+                                                "y": 0.583333165695251
+                                            }
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca4stc4k82g0",
+                                            "created": 1616509560369,
+                                            "text": "类名.类属性",
+                                            "layout_left_offset": {
+                                                "x": -75.49999914318323,
+                                                "y": 21.249999832361993
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca4t53v8gsw0",
+                                    "created": 1616510482761,
+                                    "text": "实例属性",
+                                    "layout_left_offset": {
+                                        "x": -25.333333333333258,
+                                        "y": 10
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca4t5gfepi00",
+                                            "created": 1616510510102,
+                                            "text": "对象名.实例属性",
+                                            "layout_left_offset": {
+                                                "x": -18.66666666666663,
+                                                "y": -7.333333333333371
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca4t6xxs4oo0",
+                            "created": 1616510626583,
+                            "text": "动态绑定属性和方法",
+                            "layout_left_offset": {
+                                "x": -93.74999860301614,
+                                "y": -4.999999925494194
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca4t755il8o0",
+                                    "created": 1616510642288,
+                                    "text": "创建对象新属性",
+                                    "layout_left_offset": {
+                                        "x": -7.999999999999886,
+                                        "y": -30.000000000000057
+                                    },
+                                    "note": "```\nclass Student:\n    # 初始化方法\n    def __init__(self, name, age) -> None:\n        self.name = name    # 实例属性\n        self.age = age\n        \n        \n        \nstu1 = Student(\"qzy\", 23)\nstu1.gender = \"女\"\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca4t8bgo1m80",
+                                    "created": 1616510734387,
+                                    "text": "创建新方法",
+                                    "layout_left_offset": {
+                                        "x": -10.666666666666742,
+                                        "y": -17.333333333333314
+                                    },
+                                    "note": "```\nclass Student:\n    # 初始化方法\n    def __init__(self, name, age) -> None:\n        self.name = name    # 实例属性\n        self.age = age\n        \n        \n        \ndef show():\n    print(\"定义在类对象之外的函数\")\n\n\nstu1.show = show\nstu1.show()\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca4tiksjvcw0",
+                            "created": 1616511538338,
+                            "text": "封装，继承与多态",
+                            "layout_left_offset": {
+                                "x": -128.00000305473804,
+                                "y": 125.99999597668653
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca4tisww3s00",
+                                    "created": 1616511556015,
+                                    "text": "封装",
+                                    "layout_left_offset": {
+                                        "x": -51,
+                                        "y": -44
+                                    },
+                                    "note": "如果不希望被外部访问，前面加两个_\n\n实例方法和实例属性都是\n```\nclass Student:\n    # 初始化方法\n    def __init__(self, name, age) -> None:\n        self.name = name    # 实例属性\n        self.__age = age  # 不会被外部访问\n\n    # 实例方法\n    def __eat(self):  # 不会被外部访问             \n        print(\"学生吃饭\")\n```\n可以强行访问\n```\nstu1 = Student(\"qzy\", 23)\nprint(stu1._Student__age)\n# 对象._类名__实例属性/实例方法\n```"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca4tl766qs00",
+                                    "created": 1616511743780,
+                                    "text": "继承",
+                                    "layout_left_offset": {
+                                        "x": -67,
+                                        "y": -3
+                                    },
+                                    "note": "可多继承\n```\nclass 子类类名(父类1, 父类2, ···):\n\tpass\n```\n如果类没有父类，默认继承object\n\n例如\n```\nclass Person:\n    def __init__(self, name, age) -> None:\n        self.name = name\n        self.age = age\n    def info(self):\n        print(self.name, self.age)\n\nclass Student(Person):\n    def __init__(self, name, age, stu_num) -> None:\n        super().__init__(name, age)\n        self.stu_num = stu_num\n\n\n\nstu1 = Student(\"qzy\", 23, 205662)\n```"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca4u0a5ayqg0",
+                                            "created": 1616512925720,
+                                            "text": "方法重写",
+                                            "layout_left_offset": {
+                                                "x": -32,
+                                                "y": -2
+                                            },
+                                            "note": "```\nclass Person:\n    def __init__(self, name, age) -> None:\n        self.name = name\n        self.age = age\n    def info(self):\n        print(self.name, self.age)\n\nclass Student(Person):\n    def __init__(self, name, age, stu_num) -> None:\n        super().__init__(name, age)\n        self.stu_num = stu_num\n    def info(self): # 重写方法\n        print(self.stu_num)\n        super().info()  # 调用父类方法\n\nstu1 = Student(\"qzy\", 23, 205662)\nstu1.info()\n```\ntips:可以重写```__str__()```方法用于返回对象的描述"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca4ucye2a7c0",
+                                    "created": 1616513918862,
+                                    "text": "多态",
+                                    "layout_left_offset": {
+                                        "x": -94.99999858438969,
+                                        "y": 44.999999329447974
+                                    },
+                                    "note": "```\nclass Animal:\n    def eat(self):\n        print(\"动物吃东西\")\n\nclass Person:\n    def eat(self):\n        print(\"人吃五谷杂粮\")\n\nclass Dog(Animal):\n    def eat(self):\n        print(\"狗吃屎\")\n\nclass Cat(Animal):\n    def eat(self):\n        print(\"猫吃鱼\")\n\ndef fun(obj):\n    obj.eat()\n\ncat1 = Cat()\nfun(Person())\nfun(cat1)\n```"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca57pk7lfp40",
+                            "created": 1616551581159,
+                            "text": "特殊属性和方法",
+                            "layout_left_offset": {
+                                "x": -107.49999839812517,
+                                "y": -13.749999795109034
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca57x8w8ptk0",
+                                    "created": 1616552183441,
+                                    "text": "特殊属性",
+                                    "expandState": "expand",
+                                    "layout_left_offset": {
+                                        "x": -52,
+                                        "y": 110
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca57q7x6tj40",
+                                            "created": 1616551632773,
+                                            "text": "__dict__",
+                                            "note": "获得对象或实例所绑定的所有属性和方法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca57x15jcgw0",
+                                            "created": 1616552166589,
+                                            "text": "__class__",
+                                            "note": "对象所属类型"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca57xkqd4o80",
+                                            "created": 1616552209207,
+                                            "text": "__bases__",
+                                            "note": "所有父类"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca57ybkwy0g0",
+                                            "created": 1616552267651,
+                                            "text": "__base__",
+                                            "note": "离得最近的父类"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca57yzui8wo0",
+                                            "created": 1616552320474,
+                                            "text": "__mro__",
+                                            "note": "类的层次结构"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca57xf41bew0",
+                                    "created": 1616552196973,
+                                    "text": "特殊方法",
+                                    "layout_left_offset": {
+                                        "x": -276,
+                                        "y": 36
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca580scz3z40",
+                                            "created": 1616552460904,
+                                            "text": "Animal.__subclasses__()",
+                                            "note": "返回所有子类的列表"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca581w2m8pc0",
+                                            "created": 1616552547349,
+                                            "text": "__add__()",
+                                            "note": "实现两个对象的加法运算\n通过改写此方法可以实现任意对象的\"+\"运算"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca586nbhl1s0",
+                                            "created": 1616552920116,
+                                            "text": "__len__()",
+                                            "note": "通过改写此方法，可以使得len()的参数是自定义类型"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca589onlofc0",
+                                            "created": 1616553158117,
+                                            "text": "__new__()",
+                                            "note": "用于创建对象，创建对象时被调用"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca589zpivuw0",
+                                            "created": 1616553182178,
+                                            "text": "__init__()",
+                                            "note": "对创建的对象进行初始化"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}
