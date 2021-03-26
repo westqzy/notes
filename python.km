@@ -811,7 +811,11 @@
                                             "created": 1608279489333,
                                             "text": "构造",
                                             "expandState": "collapse",
-                                            "layout": null
+                                            "layout": null,
+                                            "layout_right_offset": {
+                                                "x": -9.999999850988388,
+                                                "y": -109.99999836087215
+                                            }
                                         },
                                         "children": [
                                             {
@@ -899,6 +903,98 @@
                                                         "children": []
                                                     }
                                                 ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca7cg3q8ylc0",
+                                                    "created": 1616768065467,
+                                                    "text": "生成随机",
+                                                    "layout_right_offset": {
+                                                        "x": 27.499999590218067,
+                                                        "y": 41.2499993853271
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7cgaf9r8g0",
+                                                            "created": 1616768080041,
+                                                            "text": ".rand()",
+                                                            "note": "满足均匀分布,范围0-1\n```\nnp.random.rand(2,3)\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7ck5ed86w0",
+                                                            "created": 1616768382559,
+                                                            "text": ".randn()",
+                                                            "note": "满足标准正态分布\n```\nnp.random.randn(2,3)\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7cmbjixc80",
+                                                            "created": 1616768552660,
+                                                            "text": ".randint()",
+                                                            "note": "```\nrandint(low, high=None, size=None, dtype=int)\n# 形状是size\n```\n```\nnp.random.randint(10,20, size=(3, 4))\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7cobt4ea80",
+                                                            "created": 1616768709968,
+                                                            "text": ".uniform()",
+                                                            "note": "与randint相似，生成的为小数\n```\nnp.random.uniform(10,20, size=(3, 4))\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7cpleqfq80",
+                                                            "created": 1616768809230,
+                                                            "text": ".normal()"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7cpw17j6o0",
+                                                            "created": 1616768832358,
+                                                            "text": ".seed(s)",
+                                                            "note": "随机数种子，每次生成相同的随机数"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca7cu5puni80",
+                                                    "created": 1616769166895,
+                                                    "text": "复制",
+                                                    "layout_right_offset": {
+                                                        "x": 34.99999947845936,
+                                                        "y": 98.74999852851033
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7cuatxtgg0",
+                                                            "created": 1616769178026,
+                                                            "text": "copy()",
+                                                            "note": "```\na = b.copy()\n```",
+                                                            "layout_right_offset": {
+                                                                "x": 8.74999986961484,
+                                                                "y": -2.499999962747097
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -907,7 +1003,11 @@
                                             "id": "ca6eorkd2v40",
                                             "created": 1616672826530,
                                             "text": "数据类型",
-                                            "expandState": "collapse"
+                                            "expandState": "expand",
+                                            "layout_right_offset": {
+                                                "x": 23.74999964609742,
+                                                "y": -86.24999871477485
+                                            }
                                         },
                                         "children": [
                                             {
@@ -941,7 +1041,7 @@
                                                             "id": "ca6eu6ouz9c0",
                                                             "created": 1616673251275,
                                                             "text": "astype()",
-                                                            "note": "```\na5 = a4.astype(\"int64\")\na5.dtype\n```"
+                                                            "note": "```\na5 = a4.astype(\"int64\")\na5.dtype\n```\n```\nt = np.arange(24).reshape(4,6).astype(\"float64\")\n```"
                                                         },
                                                         "children": []
                                                     }
@@ -953,15 +1053,15 @@
                                         "data": {
                                             "id": "c7vrijb2us00",
                                             "created": 1608279536395,
-                                            "text": "合并",
+                                            "text": "拼接",
                                             "expandState": "collapse",
                                             "note": null,
                                             "hyperlink": "https://blog.csdn.net/jingbo18/article/details/80421715",
                                             "hyperlinkTitle": "合并",
                                             "layout": null,
                                             "layout_right_offset": {
-                                                "x": 19,
-                                                "y": 15
+                                                "x": 56.499999441206455,
+                                                "y": -52.49999899417162
                                             }
                                         },
                                         "children": [
@@ -974,8 +1074,8 @@
                                                     "note": "```python\nc = np.append(a, b, axis=1)\n```",
                                                     "layout": null,
                                                     "layout_right_offset": {
-                                                        "x": 33,
-                                                        "y": -28
+                                                        "x": 56,
+                                                        "y": -29
                                                     }
                                                 },
                                                 "children": []
@@ -987,7 +1087,29 @@
                                                     "text": "concatenate",
                                                     "expandState": "expand",
                                                     "note": "```python\nc = np.concatenate((a, b),axis=0)\n```",
-                                                    "layout": null
+                                                    "layout": null,
+                                                    "layout_right_offset": {
+                                                        "x": 45,
+                                                        "y": -12
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca7aj90dlps0",
+                                                    "created": 1616762669836,
+                                                    "text": "水平拼接",
+                                                    "note": "```\nc2  =np.hstack([a, b])\n```"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca7ajs577a00",
+                                                    "created": 1616762711487,
+                                                    "text": "数值拼接",
+                                                    "note": "```\nc = np.vstack([a, b])\n```"
                                                 },
                                                 "children": []
                                             }
@@ -997,35 +1119,173 @@
                                         "data": {
                                             "id": "ca6ez4w13mo0",
                                             "created": 1616673639176,
-                                            "text": "运算操作",
+                                            "text": "运算/统计操作",
                                             "layout_right_offset": {
-                                                "x": 0,
-                                                "y": 15
+                                                "x": 93.74999860301614,
+                                                "y": -26.249999385327214
                                             },
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "ca6ez9naek80",
-                                                    "created": 1616673649531,
-                                                    "text": "将小数四舍五入到指定位数",
+                                                    "id": "ca7dqpz1s1k0",
+                                                    "created": 1616771718640,
+                                                    "text": "统计函数",
+                                                    "expandState": "expand",
                                                     "layout_right_offset": {
-                                                        "x": 2.499999962747097,
-                                                        "y": -21.249999683350325
+                                                        "x": 128.7499980814755,
+                                                        "y": 208.74999688938271
                                                     }
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
-                                                            "id": "ca6ezybnbug0",
-                                                            "created": 1616673703247,
-                                                            "text": "round()",
+                                                            "id": "ca7dl0yfeds0",
+                                                            "created": 1616771272362,
+                                                            "text": "求和",
+                                                            "note": "```\nnp.sum()\n```\n```\nnp.sum(np.random.randint(10,20, size=(3, 4)))\nnp.sum(np.random.randint(10,20, size=(3, 4)), axis = 1)\n```\n```\nt = np.random.randint(10,20, size=(3, 4))\nt.sum(axis = 1)\n```",
                                                             "layout_right_offset": {
-                                                                "x": -3.749999944120418,
-                                                                "y": -3.7499999441206455
+                                                                "x": 3.749999944120418,
+                                                                "y": -41.2499993853271
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7dsde70ko0",
+                                                            "created": 1616771847986,
+                                                            "text": "均值",
+                                                            "note": "```\nnp.mean(axis)\n```\n```\nt = np.arange(24).reshape(4,6)\nt.mean()\n# 11.5\nt.mean(axis = 1)\n# array([ 2.5,  8.5, 14.5, 20.5])\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7dulp47bc0",
+                                                            "created": 1616772022789,
+                                                            "text": "中值",
+                                                            "layout_right_offset": {
+                                                                "x": 1.2499999813733211,
+                                                                "y": 9.999999850988274
                                                             },
-                                                            "note": "```\nround_(a, decimals=0, out=None)\n```\n\n```\na6 = np.array([0.24753274, 0.28388672, 0.059283  , 0.16640861, 0.83396244])\na6 = np.round(a6, 3) # 变化成3位\n```"
+                                                            "note": "```\nnp.median(axis)\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7dv25vu8o0",
+                                                            "created": 1616772058631,
+                                                            "text": "最值",
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "ca7c7vzbv200",
+                                                                    "created": 1616767421689,
+                                                                    "text": "获取最值索引"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "ca7c82jjzrk0",
+                                                                            "created": 1616767435972,
+                                                                            "text": "最大值",
+                                                                            "layout_right_offset": {
+                                                                                "x": 6,
+                                                                                "y": 1
+                                                                            },
+                                                                            "note": "```\nnp.argmax(d, axis=0)\n# axis 表明在哪个维度上\n```"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "ca7c86mlu280",
+                                                                            "created": 1616767444864,
+                                                                            "text": "最小值",
+                                                                            "note": "```\nnp.argmin(d, axis=1)\n```"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "ca7dxg4ix8g0",
+                                                                    "created": 1616772245752,
+                                                                    "text": "获取最值",
+                                                                    "layout_right_offset": {
+                                                                        "x": 9.999999850988388,
+                                                                        "y": 17.499999739229793
+                                                                    }
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "ca7c82jjzrk0",
+                                                                            "created": 1616767435972,
+                                                                            "text": "最大值",
+                                                                            "layout_right_offset": {
+                                                                                "x": 6,
+                                                                                "y": 1
+                                                                            },
+                                                                            "note": "```\nt.max(axis)\n```"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "ca7c86mlu280",
+                                                                            "created": 1616767444864,
+                                                                            "text": "最小值",
+                                                                            "note": "```\nt.min(axis)\n```"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7df967avs0",
+                                                            "created": 1616770820061,
+                                                            "text": "np.count_nonzero()",
+                                                            "layout_right_offset": {
+                                                                "x": 21.249999683350325,
+                                                                "y": 38.749999422580004
+                                                            },
+                                                            "note": "统计括号中表达为假的个数\n```\nnp.count_nonzero(t)\n# 统计t不为0的个数\n\nnp.count_nonzero(t != t)\n# 统计t中nan的个数\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7dzpau7gg0",
+                                                            "created": 1616772422454,
+                                                            "text": "极值",
+                                                            "layout_right_offset": {
+                                                                "x": -3.7499999441206455,
+                                                                "y": 59.999999105930556
+                                                            },
+                                                            "note": "最大值和最小值之差\n```\nnp.ptp(t, axis)\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7e0f8rj3s0",
+                                                            "created": 1616772478924,
+                                                            "text": "标准差",
+                                                            "layout_right_offset": {
+                                                                "x": -8.74999986961484,
+                                                                "y": 54.99999918043625
+                                                            },
+                                                            "note": "```\nt.std(axis)\n```"
                                                         },
                                                         "children": []
                                                     }
@@ -1033,16 +1293,48 @@
                                             },
                                             {
                                                 "data": {
-                                                    "id": "ca6fu4ogrhk0",
-                                                    "created": 1616676068007,
-                                                    "text": "+-*/",
+                                                    "id": "ca7dyulyoqo0",
+                                                    "created": 1616772355646,
+                                                    "text": "运算",
                                                     "layout_right_offset": {
-                                                        "x": 80,
-                                                        "y": -22
+                                                        "x": 174.99999739229702,
+                                                        "y": -594.9999911338093
                                                     },
-                                                    "note": "```\nb = np.array([[1,2,3],[1,3,4]])\nb = b+2\n```\n若后缘维度（从末尾开始算的维度）相同或其中一方长度为1，也能进行运算\n```\nb = np.array([[1,2,3],[1,3,4]])\nc = np.array([1,2,3])\nb+c\n```"
+                                                    "expandState": "expand"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ca6fu4ogrhk0",
+                                                            "created": 1616676068007,
+                                                            "text": "+-*/",
+                                                            "note": "```\nb = np.array([[1,2,3],[1,3,4]])\nb = b+2\n```\n若后缘维度（从末尾开始算的维度）相同或其中一方长度为1，也能进行运算\n```\nb = np.array([[1,2,3],[1,3,4]])\nc = np.array([1,2,3])\nb+c\n```"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca6ez9naek80",
+                                                            "created": 1616673649531,
+                                                            "text": "将小数四舍五入到指定位数"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "ca6ezybnbug0",
+                                                                    "created": 1616673703247,
+                                                                    "text": "round()",
+                                                                    "layout_right_offset": {
+                                                                        "x": -7.499999888241064,
+                                                                        "y": -19.99999970197672
+                                                                    },
+                                                                    "note": "```\nround_(a, decimals=0, out=None)\n```\n\n```\na6 = np.array([0.24753274, 0.28388672, 0.059283  , 0.16640861, 0.83396244])\na6 = np.round(a6, 3) # 变化成3位\n```"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -1052,8 +1344,8 @@
                                             "created": 1616673871764,
                                             "text": "数组的形状",
                                             "layout_right_offset": {
-                                                "x": 3.5000001117589363,
-                                                "y": 37.750001911074264
+                                                "x": 99.74999867752217,
+                                                "y": 26.500002078712498
                                             },
                                             "expandState": "collapse"
                                         },
@@ -1151,10 +1443,10 @@
                                         "data": {
                                             "id": "ca6hdh8e28g0",
                                             "created": 1616680405363,
-                                            "text": "读取数据",
+                                            "text": "文件读取数据",
                                             "layout_right_offset": {
-                                                "x": -7,
-                                                "y": 83
+                                                "x": 89.24999901279807,
+                                                "y": 51.00000037252903
                                             },
                                             "expandState": "collapse"
                                         },
@@ -1178,12 +1470,12 @@
                                         "data": {
                                             "id": "ca6imv0nrl40",
                                             "created": 1616683961757,
-                                            "text": "获取数据",
+                                            "text": "切片与索引",
                                             "layout_right_offset": {
-                                                "x": -0.2500002793967724,
-                                                "y": 113.74999964609745
+                                                "x": 75.74999919906259,
+                                                "y": 71.99999977648255
                                             },
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1318,11 +1610,12 @@
                                         "data": {
                                             "id": "ca6j2ph438g0",
                                             "created": 1616685203518,
-                                            "text": "修改数据",
+                                            "text": "赋值/修改数据",
                                             "layout_right_offset": {
-                                                "x": 2.7499996460974216,
-                                                "y": 118.9999999254942
-                                            }
+                                                "x": 100.2499981932342,
+                                                "y": 72.75000061467301
+                                            },
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1332,8 +1625,8 @@
                                                     "text": "直接修改",
                                                     "note": "```\nd[3,3] = 10000\n```",
                                                     "layout_right_offset": {
-                                                        "x": 13,
-                                                        "y": -31
+                                                        "x": -0.7499997951090336,
+                                                        "y": 43.99999888241291
                                                     }
                                                 },
                                                 "children": []
@@ -1342,7 +1635,12 @@
                                                 "data": {
                                                     "id": "ca6j80b50c80",
                                                     "created": 1616685618922,
-                                                    "text": "根据条件修改"
+                                                    "text": "根据条件修改",
+                                                    "expandState": "expand",
+                                                    "layout_right_offset": {
+                                                        "x": 16.24999975785613,
+                                                        "y": 8.749999869614953
+                                                    }
                                                 },
                                                 "children": [
                                                     {
@@ -1350,7 +1648,7 @@
                                                             "id": "ca6j83rsh8o0",
                                                             "created": 1616685626460,
                                                             "text": "利用布尔索引",
-                                                            "note": "```\nd = np.arange(24).reshape((6,4))\nd[d<10] = 0\n```"
+                                                            "note": "```\nd = np.arange(24).reshape((6,4))\nd[d<10] = 0\n```\n```\nd[np.nan(d)] = 0\n```"
                                                         },
                                                         "children": []
                                                     },
@@ -1358,7 +1656,7 @@
                                                         "data": {
                                                             "id": "ca6j8d22mug0",
                                                             "created": 1616685646672,
-                                                            "text": "where()",
+                                                            "text": "三元运算符where()",
                                                             "note": "```\nd2 = np.where(d<10, -1, 100)\n# 有返回值\n# 将d数组中小于10的赋值-1，大于10的赋值100\n```"
                                                         },
                                                         "children": []
@@ -1367,12 +1665,21 @@
                                                         "data": {
                                                             "id": "ca6jbhzdhyg0",
                                                             "created": 1616685892486,
-                                                            "text": "clip()",
+                                                            "text": "裁剪clip()",
                                                             "note": "```\nd3 = d.clip(10, 18)\n# 将数组d中小于10的替换成10，大于18的替换成18\n```"
                                                         },
                                                         "children": []
                                                     }
                                                 ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca7angrpjqg0",
+                                                    "created": 1616763000183,
+                                                    "text": "交换数据",
+                                                    "note": "```\nt[[1,3], :] = t[[3,1], :]\n# 交换一三行\n```"
+                                                },
+                                                "children": []
                                             }
                                         ]
                                     },
@@ -1382,11 +1689,61 @@
                                             "created": 1616686079096,
                                             "text": "nan和inf",
                                             "layout_right_offset": {
-                                                "x": -14.999999776482355,
-                                                "y": 121.24999819323409
-                                            }
+                                                "x": 57.49999914318323,
+                                                "y": 114.99999828636635
+                                            },
+                                            "expandState": "expand"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ca7cvlgw1wo0",
+                                                    "created": 1616769279546,
+                                                    "text": "nan",
+                                                    "note": "not a number",
+                                                    "layout_right_offset": {
+                                                        "x": 1.2499999813735485,
+                                                        "y": 8.74999986961484
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7dgxm6f8o0",
+                                                            "created": 1616770951634,
+                                                            "text": "isnan()",
+                                                            "note": "判断array中值是否为nan\n```\nt = np.array([1,2,3,np.nan])\nnp.isnan(t)\n# array([False, False, False,  True])\n```",
+                                                            "layout_right_offset": {
+                                                                "x": 7.499999888241291,
+                                                                "y": -41.2499993853271
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ca7einax8a80",
+                                                            "created": 1616773907024,
+                                                            "text": "nan != nan",
+                                                            "layout_right_offset": {
+                                                                "x": 3.7499999441206455,
+                                                                "y": -29.999999552965164
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ca7cwpkqzns0",
+                                                    "created": 1616769366850,
+                                                    "text": "inf",
+                                                    "note": "ifinite"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -1699,7 +2056,7 @@
                     "id": "c7wmknvrbkw0",
                     "created": 1608367157488,
                     "text": "str",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "hyperlink": "https://www.runoob.com/python/python-strings.html",
                     "hyperlinkTitle": "",
                     "layout": null
@@ -1741,10 +2098,10 @@
                             "id": "ca33n3937jk0",
                             "created": 1616336983163,
                             "text": "字符串对齐",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout_right_offset": {
-                                "x": 49,
-                                "y": 197
+                                "x": 361.4999953433871,
+                                "y": 42.00000230967987
                             }
                         },
                         "children": [
@@ -1845,8 +2202,8 @@
                             "layout": null,
                             "expandState": "expand",
                             "layout_right_offset": {
-                                "x": 0,
-                                "y": -32
+                                "x": 213.7499968148769,
+                                "y": -49.49999973922968
                             }
                         },
                         "children": [
@@ -1897,8 +2254,8 @@
                             "text": "丢弃空格",
                             "layout": null,
                             "layout_right_offset": {
-                                "x": 28.24999998137355,
-                                "y": -32.499999813735485
+                                "x": 174.49999780207884,
+                                "y": -5.000000223517418
                             },
                             "expandState": "collapse"
                         },
@@ -2189,8 +2546,8 @@
                     "text": "力扣",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": -233.74999651685366,
-                        "y": 76.24999886378646
+                        "x": -127.74999651685366,
+                        "y": 106.24999886378646
                     }
                 },
                 "children": [
@@ -2200,7 +2557,7 @@
                             "created": 1608986186128,
                             "text": "ListNode",
                             "layout": null,
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -2220,85 +2577,6 @@
                                     "text": "基本用法",
                                     "note": "调用/创建\n```\nres = ListNode(None)\n```\n遍历\n```\nwhile l1:\n\tl1 = l1.next\n```\n添加元素到链表\n```\n# 循环加赋值\nres.next = ListNode(1)\nres = res.next\n```",
                                     "layout": null
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "c82sd7nwahk0",
-                            "created": 1608992860035,
-                            "text": "中等题",
-                            "layout": null,
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "c82sdf8l09s0",
-                                    "created": 1608992876523,
-                                    "text": "链表",
-                                    "note": "2",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c82sdovglnk0",
-                                    "created": 1608992897497,
-                                    "text": "滑动窗口",
-                                    "note": "3",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c83ezhccr9s0",
-                                    "created": 1609056669534,
-                                    "text": "dp",
-                                    "note": "5,62,63,64",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c847sn1a5ts0",
-                                    "created": 1609137945563,
-                                    "text": "双指针",
-                                    "note": "两数三数四数求和\n11\n15\n16\n18,80",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c85brqkn25s0",
-                                    "created": 1609250719296,
-                                    "text": "回溯",
-                                    "note": "排序/枚举\n17，22，39，40,46,47,77,78\n\n79*",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c87sqirn1q00",
-                                    "created": 1609501702723,
-                                    "text": "贪心",
-                                    "note": "31,55"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c87v33m3pdk0",
-                                    "created": 1609508330690,
-                                    "text": "二分搜索",
-                                    "note": "33,34,74"
                                 },
                                 "children": []
                             }
