@@ -109,7 +109,7 @@ mismatch：训练资料和测试资料分布不同
 
 2. saddle point(鞍点)：更为常见
 
-### 两种训练技
+### 两种训练技巧
 
 可用来对抗 local minima 或 saddle point
 
