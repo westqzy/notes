@@ -622,6 +622,25 @@
                     },
                     {
                         "data": {
+                            "id": "ca6ev4mjuls0",
+                            "created": 1616673325146,
+                            "text": "random",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca6evpteq3s0",
+                                    "created": 1616673371273,
+                                    "text": ".random()",
+                                    "note": "生成0-1的小数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
                             "id": "c801miixdk00",
                             "created": 1608714299075,
                             "text": "collections",
@@ -1753,10 +1772,10 @@
                                     "created": 1616663163601,
                                     "text": "画图",
                                     "layout_right_offset": {
-                                        "x": 133.7499980069698,
-                                        "y": -18.749999720603256
+                                        "x": 22.4999996647241,
+                                        "y": 54.99999918043622
                                     },
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1810,7 +1829,7 @@
                                                                 "x": 4.999999925494194,
                                                                 "y": -7.499999888241234
                                                             },
-                                                            "note": "```\nplt.scatter(a,b)\n```"
+                                                            "note": "```\nplt.scatter(a,b)\n```\n按x,y值其中某一个值来区分颜色，\n比如想按照y值来区分，直接c=y就可以了\n```\nplt.scatter(a,b, c=y)\n```\n"
                                                         },
                                                         "children": []
                                                     },
@@ -2024,28 +2043,6 @@
                                         "children": []
                                     }
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "ca6ev4mjuls0",
-                            "created": 1616673325146,
-                            "text": "random",
-                            "layout_right_offset": {
-                                "x": 97.4999985471369,
-                                "y": -834.9999875575305
-                            }
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "ca6evpteq3s0",
-                                    "created": 1616673371273,
-                                    "text": ".random()",
-                                    "note": "生成0-1的小数"
-                                },
-                                "children": []
                             }
                         ]
                     }
@@ -2546,9 +2543,10 @@
                     "text": "力扣",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": -127.74999651685366,
-                        "y": 106.24999886378646
-                    }
+                        "x": -136.74999651685366,
+                        "y": 107.24999886378646
+                    },
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -2577,6 +2575,28 @@
                                     "text": "基本用法",
                                     "note": "调用/创建\n```\nres = ListNode(None)\n```\n遍历\n```\nwhile l1:\n\tl1 = l1.next\n```\n添加元素到链表\n```\n# 循环加赋值\nres.next = ListNode(1)\nres = res.next\n```",
                                     "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca9q6vkxsyo0",
+                            "created": 1617009957906,
+                            "text": "dp",
+                            "layout_right_offset": {
+                                "x": -2,
+                                "y": 70
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca9q71sxvfk0",
+                                    "created": 1617009971451,
+                                    "text": "动规很灵活，有时候可以是两个dp数组",
+                                    "note": "376"
                                 },
                                 "children": []
                             }
